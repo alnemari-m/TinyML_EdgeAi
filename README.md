@@ -6,7 +6,7 @@ A comprehensive collection of presentation slides covering TinyML (Tiny Machine 
 
 The complete presentation is available as a PDF: **[TinyML_EdgeAI_Presentation.pdf](TinyML_EdgeAI_Presentation.pdf)**
 
-Individual slides are organized in the `slides/` directory (see below).
+Individual slides are available in **SVG format** in the `slides/` directory, making them fully editable and customizable for your own use (see organization below).
 
 ## 📚 Contents
 
