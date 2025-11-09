@@ -2,6 +2,12 @@
 
 A comprehensive collection of presentation slides covering TinyML (Tiny Machine Learning) and Edge AI concepts, techniques, and applications.
 
+## 📄 Presentation
+
+The complete presentation is available as a PDF: **[TinyML_EdgeAI_Presentation.pdf](TinyML_EdgeAI_Presentation.pdf)**
+
+Individual slides are organized in the `slides/` directory (see below).
+
 ## 📚 Contents
 
 This repository contains presentation slides organized by topic:
