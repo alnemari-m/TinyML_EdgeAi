@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="slide1_title.svg"
+   inkscape:export-filename="slide1_title.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg46" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="700"
+     y="100"
+     font-family="Arial, sans-serif"
+     font-size="72"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#1a1a1a"
+     id="text1">
+    Edge AI &amp; TinyML
+  </text>
+  <!-- Main Visual Section -->
+  <!-- Left: Microcontroller Chip -->
+  <g
+     transform="translate(841.28289,449.01316)"
+     id="g17">
+    <!-- Chip body -->
+    <rect
+       x="-60"
+       y="-60"
+       width="120"
+       height="120"
+       fill="#4a90e2"
+       stroke="#2e5c8a"
+       stroke-width="3"
+       rx="5"
+       id="rect2" />
+    <!-- Pins -->
+    <rect
+       x="-70"
+       y="-40"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect3" />
+    <rect
+       x="-70"
+       y="-20"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect4" />
+    <rect
+       x="-70"
+       y="0"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect5" />
+    <rect
+       x="-70"
+       y="20"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect6" />
+    <rect
+       x="-70"
+       y="40"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect7" />
+    <rect
+       x="60"
+       y="-40"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect8" />
+    <rect
+       x="60"
+       y="-20"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect9" />
+    <rect
+       x="60"
+       y="0"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect10" />
+    <rect
+       x="60"
+       y="20"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect11" />
+    <rect
+       x="60"
+       y="40"
+       width="10"
+       height="8"
+       fill="#2e5c8a"
+       id="rect12" />
+    <!-- Circuit pattern -->
+    <circle
+       cx="-20"
+       cy="-20"
+       r="4"
+       fill="#ffffff"
+       id="circle12" />
+    <circle
+       cx="20"
+       cy="-20"
+       r="4"
+       fill="#ffffff"
+       id="circle13" />
+    <circle
+       cx="-20"
+       cy="20"
+       r="4"
+       fill="#ffffff"
+       id="circle14" />
+    <circle
+       cx="20"
+       cy="20"
+       r="4"
+       fill="#ffffff"
+       id="circle15" />
+    <line
+       x1="-20"
+       y1="-20"
+       x2="20"
+       y2="-20"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="line15" />
+    <line
+       x1="-20"
+       y1="20"
+       x2="20"
+       y2="20"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="line16" />
+    <line
+       x1="0"
+       y1="-20"
+       x2="0"
+       y2="20"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="line17" />
+    <!-- Label -->
+    <text
+       x="0"
+       y="90"
+       font-family="Arial, sans-serif"
+       font-size="20px"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#4a90e2"
+       id="text17">MCU</text>
+  </g>
+  <!-- Center: Neural Operator -->
+  <g
+     transform="translate(562.99342,242.92764)"
+     id="g33">
+    <!-- Neural network box -->
+    <rect
+       x="-120"
+       y="-80"
+       width="240"
+       height="160"
+       fill="#e8f4f8"
+       stroke="#4a90e2"
+       stroke-width="2"
+       rx="8"
+       id="rect17" />
+    <!-- Input layer (3 nodes) -->
+    <circle
+       cx="-80"
+       cy="-40"
+       r="8"
+       fill="#e74c3c"
+       stroke="#c0392b"
+       stroke-width="2"
+       id="circle17" />
+    <circle
+       cx="-80"
+       cy="0"
+       r="8"
+       fill="#e74c3c"
+       stroke="#c0392b"
+       stroke-width="2"
+       id="circle18" />
+    <circle
+       cx="-80"
+       cy="40"
+       r="8"
+       fill="#e74c3c"
+       stroke="#c0392b"
+       stroke-width="2"
+       id="circle19" />
+    <!-- Hidden layer (4 nodes) -->
+    <circle
+       cx="0"
+       cy="-50"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle20" />
+    <circle
+       cx="0"
+       cy="-15"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle21" />
+    <circle
+       cx="0"
+       cy="15"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle22" />
+    <circle
+       cx="0"
+       cy="50"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle23" />
+    <!-- Output layer (3 nodes) -->
+    <circle
+       cx="80"
+       cy="-40"
+       r="8"
+       fill="#2ecc71"
+       stroke="#27ae60"
+       stroke-width="2"
+       id="circle24" />
+    <circle
+       cx="80"
+       cy="0"
+       r="8"
+       fill="#2ecc71"
+       stroke="#27ae60"
+       stroke-width="2"
+       id="circle25" />
+    <circle
+       cx="80"
+       cy="40"
+       r="8"
+       fill="#2ecc71"
+       stroke="#27ae60"
+       stroke-width="2"
+       id="circle26" />
+    <!-- Connections (sample - not all for clarity) -->
+    <line
+       x1="-72"
+       y1="-40"
+       x2="-8"
+       y2="-50"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line26" />
+    <line
+       x1="-72"
+       y1="0"
+       x2="-8"
+       y2="-15"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line27" />
+    <line
+       x1="-72"
+       y1="0"
+       x2="-8"
+       y2="15"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line28" />
+    <line
+       x1="-72"
+       y1="40"
+       x2="-8"
+       y2="50"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line29" />
+    <line
+       x1="8"
+       y1="-50"
+       x2="72"
+       y2="-40"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line30" />
+    <line
+       x1="8"
+       y1="-15"
+       x2="72"
+       y2="0"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line31" />
+    <line
+       x1="8"
+       y1="15"
+       x2="72"
+       y2="0"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line32" />
+    <line
+       x1="8"
+       y1="50"
+       x2="72"
+       y2="40"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line33" />
+    <!-- Operator symbol -->
+    <text
+       x="0"
+       y="-100"
+       font-family="'Times New Roman', serif"
+       font-size="28px"
+       font-style="italic"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text33">𝒢<tspan
+   font-size="20px"
+   baseline-shift="sub"
+   id="tspan33">θ</tspan></text>
+  </g>
+  <g
+     transform="translate(293.86184,456.20017)"
+     id="g33-6">
+    <!-- Neural network box -->
+    <rect
+       x="-120"
+       y="-80"
+       width="240"
+       height="160"
+       fill="#e8f4f8"
+       stroke="#4a90e2"
+       stroke-width="2"
+       rx="8"
+       id="rect17-7" />
+    <!-- Input layer (3 nodes) -->
+    <circle
+       cx="-80"
+       cy="-40"
+       r="8"
+       fill="#e74c3c"
+       stroke="#c0392b"
+       stroke-width="2"
+       id="circle17-5" />
+    <circle
+       cx="-80"
+       cy="0"
+       r="8"
+       fill="#e74c3c"
+       stroke="#c0392b"
+       stroke-width="2"
+       id="circle18-3" />
+    <circle
+       cx="-80"
+       cy="40"
+       r="8"
+       fill="#e74c3c"
+       stroke="#c0392b"
+       stroke-width="2"
+       id="circle19-5" />
+    <!-- Hidden layer (4 nodes) -->
+    <circle
+       cx="0"
+       cy="-50"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle20-6" />
+    <circle
+       cx="0"
+       cy="-15"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle21-2" />
+    <circle
+       cx="0"
+       cy="15"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle22-9" />
+    <circle
+       cx="0"
+       cy="50"
+       r="8"
+       fill="#3498db"
+       stroke="#2980b9"
+       stroke-width="2"
+       id="circle23-1" />
+    <!-- Output layer (3 nodes) -->
+    <circle
+       cx="80"
+       cy="-40"
+       r="8"
+       fill="#2ecc71"
+       stroke="#27ae60"
+       stroke-width="2"
+       id="circle24-2" />
+    <circle
+       cx="80"
+       cy="0"
+       r="8"
+       fill="#2ecc71"
+       stroke="#27ae60"
+       stroke-width="2"
+       id="circle25-7" />
+    <circle
+       cx="80"
+       cy="40"
+       r="8"
+       fill="#2ecc71"
+       stroke="#27ae60"
+       stroke-width="2"
+       id="circle26-0" />
+    <!-- Connections (sample - not all for clarity) -->
+    <line
+       x1="-72"
+       y1="-40"
+       x2="-8"
+       y2="-50"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line26-9" />
+    <line
+       x1="-72"
+       y1="0"
+       x2="-8"
+       y2="-15"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line27-3" />
+    <line
+       x1="-72"
+       y1="0"
+       x2="-8"
+       y2="15"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line28-6" />
+    <line
+       x1="-72"
+       y1="40"
+       x2="-8"
+       y2="50"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line29-0" />
+    <line
+       x1="8"
+       y1="-50"
+       x2="72"
+       y2="-40"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line30-6" />
+    <line
+       x1="8"
+       y1="-15"
+       x2="72"
+       y2="0"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line31-2" />
+    <line
+       x1="8"
+       y1="15"
+       x2="72"
+       y2="0"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line32-6" />
+    <line
+       x1="8"
+       y1="50"
+       x2="72"
+       y2="40"
+       stroke="#bdc3c7"
+       stroke-width="1.5"
+       opacity="0.4"
+       id="line33-1" />
+    <!-- Operator symbol -->
+    <text
+       x="0"
+       y="-100"
+       font-family="'Times New Roman', serif"
+       font-size="28px"
+       font-style="italic"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text33-8">𝒢<tspan
+   font-size="20px"
+   baseline-shift="sub"
+   id="tspan33-7">θ</tspan></text>
+  </g>
+  <!-- Right: IoT Devices -->
+  <g
+     transform="translate(1080.2632,216.44737)"
+     id="g40">
+    <!-- Smartwatch -->
+    <g
+       transform="translate(0,-50)"
+       id="g35">
+      <rect
+         x="-25"
+         y="-20"
+         width="50"
+         height="40"
+         fill="#2ecc71"
+         stroke="#27ae60"
+         stroke-width="2"
+         rx="8"
+         id="rect33" />
+      <rect
+         x="-15"
+         y="-10"
+         width="30"
+         height="20"
+         fill="#ffffff"
+         opacity="0.3"
+         rx="2"
+         id="rect34" />
+      <line
+         x1="-25"
+         y1="-5"
+         x2="-35"
+         y2="-5"
+         stroke="#27ae60"
+         stroke-width="3"
+         id="line34" />
+      <line
+         x1="25"
+         y1="-5"
+         x2="35"
+         y2="-5"
+         stroke="#27ae60"
+         stroke-width="3"
+         id="line35" />
+    </g>
+    <!-- Sensor node -->
+    <g
+       transform="translate(0,10)"
+       id="g37">
+      <circle
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#9b59b6"
+         stroke="#8e44ad"
+         stroke-width="2"
+         id="circle35" />
+      <circle
+         cx="0"
+         cy="0"
+         r="15"
+         fill="#ffffff"
+         opacity="0.3"
+         id="circle36" />
+      <circle
+         cx="0"
+         cy="0"
+         r="8"
+         fill="#ffffff"
+         opacity="0.5"
+         id="circle37" />
+    </g>
+    <!-- Camera -->
+    <g
+       transform="translate(0,70)"
+       id="g39">
+      <rect
+         x="-28"
+         y="-18"
+         width="56"
+         height="36"
+         fill="#e67e22"
+         stroke="#d35400"
+         stroke-width="2"
+         rx="6"
+         id="rect37" />
+      <circle
+         cx="10"
+         cy="0"
+         r="12"
+         fill="#34495e"
+         stroke="#2c3e50"
+         stroke-width="2"
+         id="circle38" />
+      <circle
+         cx="10"
+         cy="0"
+         r="8"
+         fill="#3498db"
+         opacity="0.5"
+         id="circle39" />
+      <rect
+         x="-20"
+         y="-8"
+         width="15"
+         height="8"
+         fill="#34495e"
+         rx="2"
+         id="rect39" />
+    </g>
+    <!-- Label -->
+    <text
+       x="0"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="20px"
+       font-weight="600"
+       text-anchor="middle"
+       fill="#2ecc71"
+       id="text39">Edge Devices</text>
+  </g>
+  <!-- Connecting Arrows -->
+  <!-- Left to Center -->
+  <defs
+     id="defs41">
+    <marker
+       id="arrowblue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#4A90E2"
+         id="path40" />
+    </marker>
+    <marker
+       id="arrowgreen"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#2ECC71"
+         id="path41" />
+    </marker>
+  </defs>
+  <path
+     d="m 443.84869,452.46711 q 180,0 310,0"
+     stroke="#4a90e2"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowblue)"
+     id="path42" />
+  <!-- Center to Right -->
+  <path
+     d="m 714.07895,233.7171 q 180,0 309.99995,0"
+     stroke="#2ecc71"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowgreen)"
+     id="path43" />
+  <!-- Subtitle -->
+  <text
+     x="700"
+     y="609.9342"
+     font-family="Arial, sans-serif"
+     font-size="36px"
+     font-style="italic"
+     text-anchor="middle"
+     fill="#555555"
+     id="text43">Bringing Intelligence to the Edge</text>
+  <!-- Presented by -->
+  <text
+     x="700"
+     y="680"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     text-anchor="middle"
+     fill="#333333"
+     id="text44">
+    Presented by
+  </text>
+  <text
+     x="700"
+     y="720"
+     font-family="Arial, sans-serif"
+     font-size="32"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#1a1a1a"
+     id="text45">
+    Dr. Mohammed Alnemari
+  </text>
+  <!-- Fall 2024 -->
+  <text
+     x="700"
+     y="770"
+     font-family="Arial, sans-serif"
+     font-size="20px"
+     text-anchor="middle"
+     fill="#666666"
+     id="text46">FALL2025</text>
+</svg>

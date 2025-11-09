@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg85"
+   sodipodi:docname="slide16_gesture_recognition (1).svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="slide16_gesture_recognition (1).png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs85" />
+  <sodipodi:namedview
+     id="namedview85"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg85" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="91.940788"
+     y="51.217106"
+     font-family="Arial, sans-serif"
+     font-size="52px"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">CASE STUDY: GESTURE RECOGNITION</text>
+  <!-- Subtitle -->
+  <text
+     x="97.697365"
+     y="100.06579"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     font-weight="600"
+     fill="#9c27b0"
+     id="text2">REAL-WORLD APPLICATION</text>
+  <!-- Problem Statement Section -->
+  <g
+     transform="translate(85.032895,114.73684)"
+     id="g9">
+    <rect
+       x="0"
+       y="0"
+       width="580"
+       height="200"
+       fill="#f3e5f5"
+       stroke="#9c27b0"
+       stroke-width="2"
+       rx="8"
+       id="rect2" />
+    <text
+       x="20"
+       y="30"
+       font-family="Arial, sans-serif"
+       font-size="20px"
+       font-weight="bold"
+       fill="#7b1fa2"
+       id="text3">Problem Statement</text>
+    <text
+       x="20"
+       y="60"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       fill="#2c3e50"
+       id="text4"><tspan
+   font-weight="bold"
+   id="tspan3">Objective:</tspan> Recognize hand gestures using accelerometer data on MCU</text>
+    <text
+       x="20"
+       y="90"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#2c3e50"
+       id="text5">Gestures:</text>
+    <text
+       x="40"
+       y="110"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text6">• Wave (side to side motion)</text>
+    <text
+       x="40"
+       y="130"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text7">• Fist (punch motion)</text>
+    <text
+       x="40"
+       y="150"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text8">• Open hand (spread fingers)</text>
+    <text
+       x="40"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text9">• Idle (no motion)</text>
+  </g>
+  <!-- Dataset Section -->
+  <g
+     transform="translate(709.63816,79.046053)"
+     id="g23">
+    <rect
+       x="0"
+       y="0"
+       width="560"
+       height="200"
+       fill="#e8f5e9"
+       stroke="#4caf50"
+       stroke-width="2"
+       rx="8"
+       id="rect9" />
+    <text
+       x="20"
+       y="30"
+       font-family="Arial, sans-serif"
+       font-size="20px"
+       font-weight="bold"
+       fill="#2e7d32"
+       id="text10">Dataset</text>
+    <text
+       x="20"
+       y="60"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text11"><tspan
+   font-weight="bold"
+   id="tspan10">Sensor:</tspan> 3-axis accelerometer (LSM9DS1)</text>
+    <text
+       x="20"
+       y="80"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text12"><tspan
+   font-weight="bold"
+   id="tspan11">Sampling rate:</tspan> 119 Hz</text>
+    <text
+       x="20"
+       y="100"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text13"><tspan
+   font-weight="bold"
+   id="tspan12">Window size:</tspan> 1 second (119 samples)</text>
+    <text
+       x="20"
+       y="120"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text14"><tspan
+   font-weight="bold"
+   id="tspan13">Features:</tspan> ax, ay, az × 119 = 357 inputs</text>
+    <text
+       x="20"
+       y="140"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text15"><tspan
+   font-weight="bold"
+   id="tspan14">Samples:</tspan> 1000 per gesture class</text>
+    <!-- Visual representation of data -->
+    <g
+       transform="translate(20,160)"
+       id="g22">
+      <text
+         x="0"
+         y="0"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         fill="#666666"
+         id="text16">Sample data visualization:</text>
+      <!-- Mini axis lines -->
+      <line
+         x1="150"
+         y1="-10"
+         x2="520"
+         y2="-10"
+         stroke="#ff5252"
+         stroke-width="2"
+         id="line16" />
+      <line
+         x1="150"
+         y1="0"
+         x2="520"
+         y2="0"
+         stroke="#4caf50"
+         stroke-width="2"
+         id="line17" />
+      <line
+         x1="150"
+         y1="10"
+         x2="520"
+         y2="10"
+         stroke="#2196f3"
+         stroke-width="2"
+         id="line18" />
+      <!-- Wavy patterns -->
+      <path
+         d="m 150,-10 q 50,5 100,0 50,-5 100,0 50,5 100,0 50,-5 70,0"
+         stroke="#ff5252"
+         stroke-width="1.5"
+         fill="none"
+         id="path18" />
+      <path
+         d="m 150,0 q 50,5 100,0 50,-5 100,0 50,5 100,0 50,-5 70,0"
+         stroke="#4caf50"
+         stroke-width="1.5"
+         fill="none"
+         id="path19" />
+      <path
+         d="m 150,10 q 50,5 100,0 50,-5 100,0 50,5 100,0 50,-5 70,0"
+         stroke="#2196f3"
+         stroke-width="1.5"
+         fill="none"
+         id="path20" />
+      <text
+         x="525"
+         y="-7"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#ff5252"
+         id="text20">ax</text>
+      <text
+         x="525"
+         y="3"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#4caf50"
+         id="text21">ay</text>
+      <text
+         x="525"
+         y="13"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#2196f3"
+         id="text22">az</text>
+    </g>
+  </g>
+  <!-- Model Architecture Section -->
+  <rect
+     x="80.519493"
+     y="331.37476"
+     width="799.81628"
+     height="441.19788"
+     fill="#e3f2fd"
+     stroke="#2196f3"
+     stroke-width="2.18372"
+     rx="7.9981627"
+     id="rect23" />
+  <text
+     x="100.42764"
+     y="361.2829"
+     font-family="Arial, sans-serif"
+     font-size="20px"
+     font-weight="bold"
+     fill="#1976d2"
+     id="text23">Model Architecture</text>
+  <g
+     transform="translate(130.42763,391.28289)"
+     id="g35">
+    <!-- Input -->
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="50"
+       fill="#bbdefb"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="4"
+       id="rect24" />
+    <text
+       x="80"
+       y="22"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0d47a1"
+       id="text24">Input</text>
+    <text
+       x="80"
+       y="38"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text25">(119, 3)</text>
+    <!-- Arrow -->
+    <path
+       d="M 80,55 V 75"
+       stroke="#1976d2"
+       stroke-width="2"
+       fill="none"
+       id="path25" />
+    <path
+       d="m 75,70 5,5 5,-5"
+       fill="#1976d2"
+       id="path26" />
+    <!-- Conv1D_1 -->
+    <rect
+       x="0"
+       y="80"
+       width="160"
+       height="50"
+       fill="#90caf9"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="4"
+       id="rect26" />
+    <text
+       x="80"
+       y="102"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0d47a1"
+       id="text26">Conv1D (8 filters)</text>
+    <text
+       x="80"
+       y="118"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text27">kernel=3, ReLU</text>
+    <!-- Arrow -->
+    <path
+       d="m 80,135 v 20"
+       stroke="#1976d2"
+       stroke-width="2"
+       fill="none"
+       id="path27" />
+    <path
+       d="m 75,150 5,5 5,-5"
+       fill="#1976d2"
+       id="path28" />
+    <!-- MaxPooling -->
+    <rect
+       x="0"
+       y="160"
+       width="160"
+       height="45"
+       fill="#64b5f6"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="4"
+       id="rect28" />
+    <text
+       x="80"
+       y="180"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0d47a1"
+       id="text28">MaxPooling1D</text>
+    <text
+       x="80"
+       y="195"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text29">pool=2</text>
+    <!-- Arrow -->
+    <path
+       d="m 80,210 v 20"
+       stroke="#1976d2"
+       stroke-width="2"
+       fill="none"
+       id="path29" />
+    <path
+       d="m 75,225 5,5 5,-5"
+       fill="#1976d2"
+       id="path30" />
+    <!-- Conv1D_2 -->
+    <rect
+       x="0"
+       y="235"
+       width="160"
+       height="50"
+       fill="#42a5f5"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="4"
+       id="rect30" />
+    <text
+       x="80"
+       y="257"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0d47a1"
+       id="text30">Conv1D (16 filters)</text>
+    <text
+       x="80"
+       y="273"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text31">kernel=3, ReLU</text>
+    <!-- Arrow to right side -->
+    <path
+       d="m 165,260 h 75"
+       stroke="#1976d2"
+       stroke-width="2"
+       fill="none"
+       id="path31" />
+    <path
+       d="m 235,255 5,5 -5,5"
+       fill="#1976d2"
+       id="path32" />
+    <!-- GlobalAvgPooling -->
+    <rect
+       x="245"
+       y="235"
+       width="180"
+       height="50"
+       fill="#1e88e5"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="4"
+       id="rect32" />
+    <text
+       x="335"
+       y="257"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text32">GlobalAveragePooling1D</text>
+    <text
+       x="335"
+       y="273"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#e3f2fd"
+       id="text33">(16,) → Flatten</text>
+    <!-- Arrow -->
+    <path
+       d="m 335,290 v 20"
+       stroke="#1976d2"
+       stroke-width="2"
+       fill="none"
+       id="path33" />
+    <path
+       d="m 330,305 5,5 5,-5"
+       fill="#1976d2"
+       id="path34" />
+    <!-- Dense Output -->
+    <rect
+       x="245"
+       y="315"
+       width="180"
+       height="50"
+       fill="#1565c0"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="4"
+       id="rect34" />
+    <text
+       x="335"
+       y="337"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text34">Dense (4 units)</text>
+    <text
+       x="335"
+       y="353"
+       font-family="Arial, sans-serif"
+       font-size="10px"
+       text-anchor="middle"
+       fill="#e3f2fd"
+       id="text35">Softmax activation</text>
+  </g>
+  <g
+     transform="translate(570.42763,411.28289)"
+     id="g45">
+    <rect
+       x="0"
+       y="0"
+       width="280"
+       height="265"
+       fill="#ffffff"
+       stroke="#1976d2"
+       stroke-width="2"
+       rx="6"
+       id="rect35" />
+    <text
+       x="140"
+       y="25"
+       font-family="Arial, sans-serif"
+       font-size="15px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#1976d2"
+       id="text36">Model Statistics</text>
+    <text
+       x="20"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text37"><tspan
+   font-weight="bold"
+   id="tspan36">Total parameters:</tspan> ~2,500</text>
+    <text
+       x="20"
+       y="75"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text38"><tspan
+   font-weight="bold"
+   id="tspan37">FP32 size:</tspan> 10 KB</text>
+    <text
+       x="20"
+       y="95"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text39"><tspan
+   font-weight="bold"
+   id="tspan38">INT8 size:</tspan> 2.5 KB</text>
+    <line
+       x1="20"
+       y1="110"
+       x2="260"
+       y2="110"
+       stroke="#1976d2"
+       stroke-width="1"
+       opacity="0.3"
+       id="line39" />
+    <text
+       x="20"
+       y="135"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text40"><tspan
+   font-weight="bold"
+   id="tspan39">Trainable layers:</tspan> 4</text>
+    <text
+       x="20"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text41"><tspan
+   font-weight="bold"
+   id="tspan40">Input shape:</tspan> (119, 3)</text>
+    <text
+       x="20"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text42"><tspan
+   font-weight="bold"
+   id="tspan41">Output shape:</tspan> (4,)</text>
+    <line
+       x1="20"
+       y1="190"
+       x2="260"
+       y2="190"
+       stroke="#1976d2"
+       stroke-width="1"
+       opacity="0.3"
+       id="line42" />
+    <text
+       x="20"
+       y="215"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#4caf50"
+       font-weight="bold"
+       id="text43">✓ Lightweight</text>
+    <text
+       x="20"
+       y="235"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#4caf50"
+       font-weight="bold"
+       id="text44">✓ Fast inference</text>
+    <text
+       x="20"
+       y="255"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#4caf50"
+       font-weight="bold"
+       id="text45">✓ MCU-friendly</text>
+  </g>
+  <!-- Performance Metrics Section -->
+  <rect
+     x="918.57141"
+     y="296.828"
+     width="349.83081"
+     height="435.45581"
+     fill="#fff3e0"
+     stroke="#ff9800"
+     stroke-width="2.16918"
+     rx="7.9961329"
+     id="rect46" />
+  <text
+     x="938.48682"
+     y="326.74341"
+     font-family="Arial, sans-serif"
+     font-size="20px"
+     font-weight="bold"
+     fill="#f57c00"
+     id="text46">Performance Metrics</text>
+  <g
+     transform="translate(938.48684,346.74342)"
+     id="g58">
+    <!-- Header -->
+    <rect
+       x="0"
+       y="0"
+       width="310"
+       height="35"
+       fill="#ffe0b2"
+       rx="4"
+       id="rect47" />
+    <text
+       x="20"
+       y="22"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#e65100"
+       id="text47">Metric</text>
+    <text
+       x="200"
+       y="22"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#e65100"
+       id="text48">Value</text>
+    <!-- Row 1 -->
+    <rect
+       x="0"
+       y="35"
+       width="310"
+       height="32"
+       fill="#ffffff"
+       id="rect48" />
+    <text
+       x="20"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#2c3e50"
+       id="text49">Accuracy</text>
+    <text
+       x="200"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#4caf50"
+       id="text50">94.5%</text>
+    <!-- Row 2 -->
+    <rect
+       x="0"
+       y="67"
+       width="310"
+       height="32"
+       fill="#fff8e1"
+       id="rect50" />
+    <text
+       x="20"
+       y="87"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#2c3e50"
+       id="text51">Inference time</text>
+    <text
+       x="200"
+       y="87"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#2196f3"
+       id="text52">8 ms</text>
+    <!-- Row 3 -->
+    <rect
+       x="0"
+       y="99"
+       width="310"
+       height="32"
+       fill="#ffffff"
+       id="rect52" />
+    <text
+       x="20"
+       y="119"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#2c3e50"
+       id="text53">Memory (RAM)</text>
+    <text
+       x="200"
+       y="119"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#9c27b0"
+       id="text54">12 KB</text>
+    <!-- Row 4 -->
+    <rect
+       x="0"
+       y="131"
+       width="310"
+       height="32"
+       fill="#fff8e1"
+       id="rect54" />
+    <text
+       x="20"
+       y="151"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#2c3e50"
+       id="text55">Model size (Flash)</text>
+    <text
+       x="200"
+       y="151"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ff9800"
+       id="text56">10 KB</text>
+    <!-- Row 5 -->
+    <rect
+       x="0"
+       y="163"
+       width="310"
+       height="32"
+       fill="#ffffff"
+       id="rect56" />
+    <text
+       x="20"
+       y="183"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       fill="#2c3e50"
+       id="text57">Power consumption</text>
+    <text
+       x="200"
+       y="183"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#f44336"
+       id="text58">45 mW</text>
+  </g>
+  <g
+     transform="translate(938.48684,556.74342)"
+     id="g84">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#f57c00"
+       id="text59">Confusion Matrix (simplified)</text>
+    <!-- 4x4 grid -->
+    <g
+       transform="translate(0,15)"
+       id="g83">
+      <!-- Labels -->
+      <text
+         x="45"
+         y="15"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text60">Wave</text>
+      <text
+         x="115"
+         y="15"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text61">Fist</text>
+      <text
+         x="185"
+         y="15"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text62">Open</text>
+      <text
+         x="255"
+         y="15"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text63">Idle</text>
+      <text
+         x="10"
+         y="50"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#666666"
+         id="text64">Wave</text>
+      <text
+         x="10"
+         y="80"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#666666"
+         id="text65">Fist</text>
+      <text
+         x="10"
+         y="110"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#666666"
+         id="text66">Open</text>
+      <text
+         x="10"
+         y="140"
+         font-family="Arial, sans-serif"
+         font-size="10px"
+         fill="#666666"
+         id="text67">Idle</text>
+      <!-- Cells -->
+      <!-- Row 1 -->
+      <rect
+         x="30"
+         y="30"
+         width="30"
+         height="30"
+         fill="#4caf50"
+         opacity="0.9"
+         id="rect67" />
+      <text
+         x="45"
+         y="50"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text68">95</text>
+      <rect
+         x="100"
+         y="30"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect68" />
+      <text
+         x="115"
+         y="50"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text69">2</text>
+      <rect
+         x="170"
+         y="30"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect69" />
+      <text
+         x="185"
+         y="50"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text70">2</text>
+      <rect
+         x="240"
+         y="30"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect70" />
+      <text
+         x="255"
+         y="50"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text71">1</text>
+      <!-- Row 2 -->
+      <rect
+         x="30"
+         y="60"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect71" />
+      <text
+         x="45"
+         y="80"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text72">3</text>
+      <rect
+         x="100"
+         y="60"
+         width="30"
+         height="30"
+         fill="#4caf50"
+         opacity="0.9"
+         id="rect72" />
+      <text
+         x="115"
+         y="80"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text73">93</text>
+      <rect
+         x="170"
+         y="60"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect73" />
+      <text
+         x="185"
+         y="80"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text74">3</text>
+      <rect
+         x="240"
+         y="60"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect74" />
+      <text
+         x="255"
+         y="80"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text75">1</text>
+      <!-- Row 3 -->
+      <rect
+         x="30"
+         y="90"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect75" />
+      <text
+         x="45"
+         y="110"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text76">1</text>
+      <rect
+         x="100"
+         y="90"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect76" />
+      <text
+         x="115"
+         y="110"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text77">4</text>
+      <rect
+         x="170"
+         y="90"
+         width="30"
+         height="30"
+         fill="#4caf50"
+         opacity="0.9"
+         id="rect77" />
+      <text
+         x="185"
+         y="110"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text78">94</text>
+      <rect
+         x="240"
+         y="90"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect78" />
+      <text
+         x="255"
+         y="110"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text79">1</text>
+      <!-- Row 4 -->
+      <rect
+         x="30"
+         y="120"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect79" />
+      <text
+         x="45"
+         y="140"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text80">0</text>
+      <rect
+         x="100"
+         y="120"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect80" />
+      <text
+         x="115"
+         y="140"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text81">1</text>
+      <rect
+         x="170"
+         y="120"
+         width="30"
+         height="30"
+         fill="#e8f5e9"
+         id="rect81" />
+      <text
+         x="185"
+         y="140"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         text-anchor="middle"
+         fill="#666666"
+         id="text82">2</text>
+      <rect
+         x="240"
+         y="120"
+         width="30"
+         height="30"
+         fill="#4caf50"
+         opacity="0.9"
+         id="rect82" />
+      <text
+         x="255"
+         y="140"
+         font-family="Arial, sans-serif"
+         font-size="11px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text83">97</text>
+    </g>
+  </g>
+  <!-- Watermark -->
+  <text
+     x="1250"
+     y="780"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#bbbbbb"
+     id="text85">@Alnemari</text>
+</svg>

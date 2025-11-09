@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg50"
+   sodipodi:docname="slide26_summary.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="slide26_summary.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs50" />
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg50" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="64.309212"
+     y="63.88158"
+     font-family="Arial, sans-serif"
+     font-size="52px"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">SUMMARY</text>
+  <!-- Subtitle -->
+  <text
+     x="94.243423"
+     y="113.88158"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     font-weight="600"
+     fill="#9c27b0"
+     id="text2">THE EVOLUTION OF AI</text>
+  <!-- Evolution Timeline -->
+  <rect
+     x="88.711975"
+     y="131.0804"
+     width="1192.2142"
+     height="178.26685"
+     fill="#f3e5f5"
+     stroke="#9c27b0"
+     stroke-width="2.45026"
+     rx="8.0828085"
+     id="rect2" />
+  <g
+     transform="translate(188.48685,200.06579)"
+     id="g7">
+    <circle
+       cx="0"
+       cy="0"
+       r="35"
+       fill="#9c27b0"
+       id="circle2" />
+    <text
+       x="0"
+       y="8"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text3">Cloud AI</text>
+    <text
+       x="0"
+       y="-50"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#7b1fa2"
+       id="text4">2010s</text>
+    <text
+       x="0"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text5">Centralized</text>
+    <text
+       x="0"
+       y="72"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text6">Heavy</text>
+    <text
+       x="0"
+       y="89"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text7">Latency: seconds</text>
+  </g>
+  <path
+     d="m 238.48685,200.06579 h 180"
+     stroke="#9c27b0"
+     stroke-width="3"
+     id="path7" />
+  <path
+     d="m 413.48685,195.06579 5,5 -5,5"
+     fill="#9c27b0"
+     id="path8" />
+  <g
+     transform="translate(478.48685,200.06579)"
+     id="g12">
+    <circle
+       cx="0"
+       cy="0"
+       r="35"
+       fill="#2196f3"
+       id="circle8" />
+    <text
+       x="0"
+       y="8"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text8">Edge AI</text>
+    <text
+       x="0"
+       y="-50"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#1976d2"
+       id="text9">Late 2010s</text>
+    <text
+       x="0"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text10">Distributed</text>
+    <text
+       x="0"
+       y="72"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text11">Moderate</text>
+    <text
+       x="0"
+       y="89"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text12">Latency: ms</text>
+  </g>
+  <path
+     d="m 528.48685,200.06579 h 180"
+     stroke="#9c27b0"
+     stroke-width="3"
+     id="path12" />
+  <path
+     d="m 703.48685,195.06579 5,5 -5,5"
+     fill="#9c27b0"
+     id="path13" />
+  <g
+     transform="translate(768.48685,200.06579)"
+     id="g17">
+    <circle
+       cx="0"
+       cy="0"
+       r="35"
+       fill="#4caf50"
+       id="circle13" />
+    <text
+       x="0"
+       y="5"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text13">TinyML</text>
+    <text
+       x="0"
+       y="-50"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       text-anchor="middle"
+       fill="#388e3c"
+       id="text14">2020s+</text>
+    <text
+       x="0"
+       y="55"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text15">Embedded</text>
+    <text
+       x="0"
+       y="72"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text16">Ultra-light</text>
+    <text
+       x="0"
+       y="89"
+       font-family="Arial, sans-serif"
+       font-size="11px"
+       text-anchor="middle"
+       fill="#2c3e50"
+       id="text17">Latency: μs</text>
+  </g>
+  <g
+     transform="translate(864.63812,176.97368)"
+     id="g20">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text18">Privacy: ✗ → ~ → ✓</text>
+    <text
+       x="0"
+       y="25"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text19">Power: High → Med → Ultra-low</text>
+    <text
+       x="0"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text20">Cost: High → Med → Low</text>
+  </g>
+  <!-- Key Takeaways -->
+  <g
+     transform="translate(96.546053,352.59868)"
+     id="g50">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="24px"
+       font-weight="bold"
+       fill="#9c27b0"
+       id="text21">Key Takeaways</text>
+    <!-- Takeaway 1: Efficiency -->
+    <g
+       transform="translate(0,30)"
+       id="g28">
+      <rect
+         x="0"
+         y="0"
+         width="560"
+         height="180"
+         fill="#e8f5e9"
+         stroke="#4caf50"
+         stroke-width="2"
+         rx="8"
+         id="rect21" />
+      <circle
+         cx="50"
+         cy="50"
+         r="30"
+         fill="#4caf50"
+         id="circle21" />
+      <text
+         x="50"
+         y="58"
+         font-family="Arial, sans-serif"
+         font-size="24px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text22">1</text>
+      <text
+         x="100"
+         y="45"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         font-weight="bold"
+         fill="#2e7d32"
+         id="text23">Efficiency is Everything</text>
+      <text
+         x="110"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text24">• Power constraints drive innovation</text>
+      <text
+         x="110"
+         y="95"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text25">• Memory optimization critical</text>
+      <text
+         x="110"
+         y="115"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text26">• Compression techniques essential</text>
+      <text
+         x="110"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text27">• 100× reduction while maintaining accuracy</text>
+      <text
+         x="110"
+         y="155"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text28">• &lt;1 mW average power achievable</text>
+    </g>
+    <!-- Takeaway 2: Real-Time -->
+    <g
+       transform="translate(620,30)"
+       id="g35">
+      <rect
+         x="0"
+         y="0"
+         width="560"
+         height="180"
+         fill="#e3f2fd"
+         stroke="#2196f3"
+         stroke-width="2"
+         rx="8"
+         id="rect28" />
+      <circle
+         cx="50"
+         cy="50"
+         r="30"
+         fill="#2196f3"
+         id="circle28" />
+      <text
+         x="50"
+         y="58"
+         font-family="Arial, sans-serif"
+         font-size="24px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text29">2</text>
+      <text
+         x="100"
+         y="45"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         font-weight="bold"
+         fill="#1976d2"
+         id="text30">Edge AI Enables Real-Time</text>
+      <text
+         x="110"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text31">• Sub-10ms inference possible</text>
+      <text
+         x="110"
+         y="95"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text32">• No network dependency</text>
+      <text
+         x="110"
+         y="115"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text33">• Deterministic behavior</text>
+      <text
+         x="110"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text34">• Always-on capability</text>
+      <text
+         x="110"
+         y="155"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text35">• Offline operation guaranteed</text>
+    </g>
+    <!-- Takeaway 3: Sustainability -->
+    <g
+       transform="translate(0,230)"
+       id="g42">
+      <rect
+         x="0"
+         y="0"
+         width="560"
+         height="180"
+         fill="#fff3e0"
+         stroke="#ff9800"
+         stroke-width="2"
+         rx="8"
+         id="rect35" />
+      <circle
+         cx="50"
+         cy="50"
+         r="30"
+         fill="#ff9800"
+         id="circle35" />
+      <text
+         x="50"
+         y="58"
+         font-family="Arial, sans-serif"
+         font-size="24px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text36">3</text>
+      <text
+         x="100"
+         y="45"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         font-weight="bold"
+         fill="#f57c00"
+         id="text37">Sustainability Through TinyML</text>
+      <text
+         x="110"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text38">• Ultra-low power = battery/solar viable</text>
+      <text
+         x="110"
+         y="95"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text39">• Distributed processing reduces load</text>
+      <text
+         x="110"
+         y="115"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text40">• Democratizes AI access</text>
+      <text
+         x="110"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text41">• Years of battery life possible</text>
+      <text
+         x="110"
+         y="155"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text42">• Reduced carbon footprint</text>
+    </g>
+    <!-- Takeaway 4: Privacy -->
+    <g
+       transform="translate(620,230)"
+       id="g49">
+      <rect
+         x="0"
+         y="0"
+         width="560"
+         height="180"
+         fill="#fce4ec"
+         stroke="#e91e63"
+         stroke-width="2"
+         rx="8"
+         id="rect42" />
+      <circle
+         cx="50"
+         cy="50"
+         r="30"
+         fill="#e91e63"
+         id="circle42" />
+      <text
+         x="50"
+         y="58"
+         font-family="Arial, sans-serif"
+         font-size="24px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text43">4</text>
+      <text
+         x="100"
+         y="45"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         font-weight="bold"
+         fill="#c2185b"
+         id="text44">Privacy by Design</text>
+      <text
+         x="110"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text45">• Data stays on device</text>
+      <text
+         x="110"
+         y="95"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text46">• User sovereignty maintained</text>
+      <text
+         x="110"
+         y="115"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text47">• Regulatory compliance built-in</text>
+      <text
+         x="110"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text48">• No cloud data breaches</text>
+      <text
+         x="110"
+         y="155"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text49">• GDPR/HIPAA friendly</text>
+    </g>
+  </g>
+  <!-- Watermark -->
+  <text
+     x="1250"
+     y="780"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#bbbbbb"
+     id="text50">@Alnemari</text>
+</svg>

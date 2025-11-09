@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg38"
+   sodipodi:docname="slide4_why_edge_ai.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="slide4_why_edge_ai.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     id="namedview38"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg38" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="100"
+     y="80"
+     font-family="Arial, sans-serif"
+     font-size="52"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">
+    WHY EDGE AI?
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="100"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     font-weight="600"
+     fill="#4A90E2"
+     id="text2">
+    The Data Explosion Challenge
+  </text>
+  <!-- IoT Devices Growth Chart -->
+  <rect
+     x="150"
+     y="180"
+     width="500"
+     height="200"
+     fill="#e8f4f8"
+     stroke="#4a90e2"
+     stroke-width="2"
+     rx="8"
+     id="rect2" />
+  <path
+     d="M 200,330 300,300 400,260 500,220 600,190"
+     stroke="#e74c3c"
+     stroke-width="4"
+     fill="none"
+     id="path2" />
+  <circle
+     cx="200"
+     cy="330"
+     r="6"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="2"
+     id="circle2" />
+  <circle
+     cx="300"
+     cy="300"
+     r="6"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="2"
+     id="circle3" />
+  <circle
+     cx="400"
+     cy="260"
+     r="6"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="2"
+     id="circle4" />
+  <circle
+     cx="500"
+     cy="220"
+     r="6"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="2"
+     id="circle5" />
+  <circle
+     cx="600"
+     cy="190"
+     r="6"
+     fill="#e74c3c"
+     stroke="#c0392b"
+     stroke-width="2"
+     id="circle6" />
+  <text
+     x="200"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text6">2020</text>
+  <text
+     x="300"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text7">2022</text>
+  <text
+     x="400"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text8">2025</text>
+  <text
+     x="500"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text9">2028</text>
+  <text
+     x="600"
+     y="355"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text10">2030</text>
+  <text
+     x="200"
+     y="325"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e74c3c"
+     id="text11">30B</text>
+  <text
+     x="300"
+     y="295"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e74c3c"
+     id="text12">50B</text>
+  <text
+     x="400"
+     y="255"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e74c3c"
+     id="text13">75B</text>
+  <text
+     x="500"
+     y="215"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e74c3c"
+     id="text14">100B</text>
+  <text
+     x="600"
+     y="185"
+     font-family="Arial, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#e74c3c"
+     id="text15">125B</text>
+  <text
+     x="400"
+     y="165"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text16">Global IoT Devices</text>
+  <!-- Three Critical Limitations -->
+  <text
+     x="100"
+     y="430"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     font-weight="600"
+     fill="#4A90E2"
+     id="text17">
+    Three Critical Limitations of Cloud Computing
+  </text>
+  <!-- 1. Latency -->
+  <rect
+     x="150"
+     y="480"
+     width="350"
+     height="240"
+     fill="#e8f4f8"
+     stroke="#4a90e2"
+     stroke-width="2"
+     rx="8"
+     id="rect17" />
+  <g
+     transform="translate(325,530)"
+     id="g19">
+    <circle
+       cx="0"
+       cy="0"
+       r="35"
+       fill="none"
+       stroke="#e74c3c"
+       stroke-width="4"
+       id="circle17" />
+    <line
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="-25"
+       stroke="#e74c3c"
+       stroke-width="4"
+       id="line17" />
+    <line
+       x1="0"
+       y1="0"
+       x2="20"
+       y2="0"
+       stroke="#e74c3c"
+       stroke-width="4"
+       id="line18" />
+    <!-- Signal waves -->
+    <path
+       d="m 45,0 q 5,-10 10,0"
+       stroke="#e74c3c"
+       stroke-width="2"
+       fill="none"
+       id="path18" />
+    <path
+       d="m 50,0 q 7,-15 14,0"
+       stroke="#e74c3c"
+       stroke-width="2"
+       fill="none"
+       id="path19" />
+  </g>
+  <text
+     x="325"
+     y="590"
+     font-family="Arial, sans-serif"
+     font-size="22px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text19">1. Latency</text>
+  <text
+     x="180"
+     y="625"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text20">• Network transmission delays</text>
+  <text
+     x="180"
+     y="650"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text21">• Unsuitable for real-time</text>
+  <text
+     x="180"
+     y="675"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text22">• T = T_transmit + T_compute</text>
+  <!-- 2. Privacy -->
+  <rect
+     x="525"
+     y="480"
+     width="350"
+     height="240"
+     fill="#e8f4f8"
+     stroke="#4a90e2"
+     stroke-width="2"
+     rx="8"
+     id="rect22" />
+  <g
+     transform="translate(700,530)"
+     id="g23">
+    <!-- Shield -->
+    <path
+       d="m 0,-35 -25,10 V 5 Q -25,25 0,35 25,25 25,5 v -30 z"
+       fill="none"
+       stroke="#9b59b6"
+       stroke-width="4"
+       id="path22" />
+    <!-- Lock -->
+    <rect
+       x="-12"
+       y="0"
+       width="24"
+       height="20"
+       fill="#9b59b6"
+       rx="3"
+       id="rect23" />
+    <path
+       d="M -8,-10 V 0 H 8 v -10 q 0,-8 -8,-8 -8,0 -8,8"
+       fill="none"
+       stroke="#9b59b6"
+       stroke-width="3"
+       id="path23" />
+  </g>
+  <text
+     x="700"
+     y="590"
+     font-family="Arial, sans-serif"
+     font-size="22px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text23">2. Privacy</text>
+  <text
+     x="555"
+     y="625"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text24">• Sensitive data exposure</text>
+  <text
+     x="555"
+     y="650"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text25">• Regulatory compliance</text>
+  <text
+     x="555"
+     y="675"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text26">• Data sovereignty concerns</text>
+  <!-- 3. Bandwidth -->
+  <rect
+     x="900"
+     y="480"
+     width="350"
+     height="240"
+     fill="#e8f4f8"
+     stroke="#4a90e2"
+     stroke-width="2"
+     rx="8"
+     id="rect26" />
+  <g
+     transform="translate(1075,530)"
+     id="g33">
+    <!-- Central node -->
+    <circle
+       cx="0"
+       cy="0"
+       r="15"
+       fill="#f39c12"
+       stroke="#e67e22"
+       stroke-width="3"
+       id="circle26" />
+    <!-- Connected nodes with X marks -->
+    <circle
+       cx="-35"
+       cy="-25"
+       r="8"
+       fill="#e74c3c"
+       id="circle27" />
+    <circle
+       cx="35"
+       cy="-25"
+       r="8"
+       fill="#e74c3c"
+       id="circle28" />
+    <circle
+       cx="-35"
+       cy="25"
+       r="8"
+       fill="#e74c3c"
+       id="circle29" />
+    <circle
+       cx="35"
+       cy="25"
+       r="8"
+       fill="#e74c3c"
+       id="circle30" />
+    <!-- Connection lines -->
+    <line
+       x1="0"
+       y1="0"
+       x2="-35"
+       y2="-25"
+       stroke="#bdc3c7"
+       stroke-width="2"
+       id="line30" />
+    <line
+       x1="0"
+       y1="0"
+       x2="35"
+       y2="-25"
+       stroke="#bdc3c7"
+       stroke-width="2"
+       id="line31" />
+    <line
+       x1="0"
+       y1="0"
+       x2="-35"
+       y2="25"
+       stroke="#bdc3c7"
+       stroke-width="2"
+       id="line32" />
+    <line
+       x1="0"
+       y1="0"
+       x2="35"
+       y2="25"
+       stroke="#bdc3c7"
+       stroke-width="2"
+       id="line33" />
+    <!-- Warning symbol on central node -->
+    <text
+       x="0"
+       y="6"
+       font-family="Arial, sans-serif"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text33">!</text>
+  </g>
+  <text
+     x="1075"
+     y="590"
+     font-family="Arial, sans-serif"
+     font-size="22px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#2c3e50"
+     id="text34">3. Bandwidth</text>
+  <text
+     x="930"
+     y="625"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text35">• Network congestion</text>
+  <text
+     x="930"
+     y="650"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text36">• High operational costs</text>
+  <text
+     x="930"
+     y="675"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#2c3e50"
+     id="text37">• Limited remote connectivity</text>
+  <!-- Watermark -->
+</svg>

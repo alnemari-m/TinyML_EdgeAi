@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 1400 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="800" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="100" y="80" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#1a1a1a">
+    DATASETS AND BENCHMARKS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#2196F3">
+    STANDARD EVALUATION TOOLS
+  </text>
+  
+  <!-- Popular TinyML Datasets Section -->
+  <g transform="translate(100, 170)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2196F3">
+      Popular TinyML Datasets
+    </text>
+    
+    <g transform="translate(0, 20)">
+      <rect x="0" y="0" width="1180" height="280" fill="#E3F2FD" stroke="#2196F3" stroke-width="2" rx="8"/>
+      
+      <!-- Table Header -->
+      <rect x="20" y="20" width="1140" height="40" fill="#1976D2" rx="4"/>
+      <text x="40" y="45" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        Dataset
+      </text>
+      <text x="270" y="45" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        Task
+      </text>
+      <text x="490" y="45" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        Samples
+      </text>
+      <text x="680" y="45" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        Size
+      </text>
+      <text x="850" y="45" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        Input Type
+      </text>
+      
+      <!-- Row 1: Visual Wake Words -->
+      <rect x="20" y="60" width="1140" height="35" fill="#ffffff"/>
+      <text x="40" y="82" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">
+        Visual Wake Words
+      </text>
+      <text x="270" y="82" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Object detection
+      </text>
+      <text x="490" y="82" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        115K images
+      </text>
+      <text x="680" y="82" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        ~5 GB
+      </text>
+      <text x="850" y="82" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        96×96 RGB
+      </text>
+      
+      <!-- Row 2: Speech Commands -->
+      <rect x="20" y="95" width="1140" height="35" fill="#BBDEFB"/>
+      <text x="40" y="117" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">
+        Speech Commands
+      </text>
+      <text x="270" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Keyword spotting
+      </text>
+      <text x="490" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        105K audio
+      </text>
+      <text x="680" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        ~2 GB
+      </text>
+      <text x="850" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        1-sec clips
+      </text>
+      
+      <!-- Row 3: Google Commands -->
+      <rect x="20" y="130" width="1140" height="35" fill="#ffffff"/>
+      <text x="40" y="152" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">
+        Google Commands
+      </text>
+      <text x="270" y="152" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Voice recognition
+      </text>
+      <text x="490" y="152" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        65K commands
+      </text>
+      <text x="680" y="152" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        ~1.4 GB
+      </text>
+      <text x="850" y="152" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Audio
+      </text>
+      
+      <!-- Row 4: UCI HAR -->
+      <rect x="20" y="165" width="1140" height="35" fill="#BBDEFB"/>
+      <text x="40" y="187" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">
+        UCI HAR
+      </text>
+      <text x="270" y="187" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Activity recognition
+      </text>
+      <text x="490" y="187" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        10K sequences
+      </text>
+      <text x="680" y="187" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        25 MB
+      </text>
+      <text x="850" y="187" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        IMU
+      </text>
+      
+      <!-- Row 5: Anomaly Detection -->
+      <rect x="20" y="200" width="1140" height="35" fill="#ffffff"/>
+      <text x="40" y="222" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">
+        Anomaly Detection
+      </text>
+      <text x="270" y="222" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Industrial
+      </text>
+      <text x="490" y="222" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        1K normal + anomalies
+      </text>
+      <text x="680" y="222" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        100 MB
+      </text>
+      <text x="850" y="222" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Sensor
+      </text>
+      
+      <!-- Row 6: Person Detection -->
+      <rect x="20" y="235" width="1140" height="35" fill="#BBDEFB"/>
+      <text x="40" y="257" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">
+        Person Detection
+      </text>
+      <text x="270" y="257" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        Vision
+      </text>
+      <text x="490" y="257" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        5K images
+      </text>
+      <text x="680" y="257" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        500 MB
+      </text>
+      <text x="850" y="257" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">
+        96×96 grayscale
+      </text>
+    </g>
+  </g>
+  
+  <!-- MLPerf Tiny Benchmark Section -->
+  <g transform="translate(100, 480)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2196F3">
+      MLPerf Tiny Benchmark
+    </text>
+    
+    <g transform="translate(0, 20)">
+      <rect x="0" y="0" width="580" height="260" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="8"/>
+      
+      <text x="20" y="30" font-family="Arial, sans-serif" font-size="15" fill="#2C3E50">
+        Standard benchmarks for TinyML performance:
+      </text>
+      
+      <!-- Benchmark Tasks Table -->
+      <rect x="20" y="50" width="540" height="35" fill="#4CAF50" rx="4"/>
+      <text x="40" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">
+        Task
+      </text>
+      <text x="210" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">
+        Model
+      </text>
+      <text x="350" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">
+        Metric
+      </text>
+      <text x="470" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">
+        Result
+      </text>
+      
+      <!-- Row 1 -->
+      <rect x="20" y="85" width="540" height="30" fill="#ffffff"/>
+      <text x="40" y="104" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Keyword Spotting
+      </text>
+      <text x="210" y="104" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        DS-CNN
+      </text>
+      <text x="350" y="104" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Accuracy
+      </text>
+      <text x="470" y="104" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4CAF50">
+        90.5%
+      </text>
+      
+      <!-- Row 2 -->
+      <rect x="20" y="115" width="540" height="30" fill="#C8E6C9"/>
+      <text x="40" y="134" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Visual Wake Words
+      </text>
+      <text x="210" y="134" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        MobileNet
+      </text>
+      <text x="350" y="134" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        mAP
+      </text>
+      <text x="470" y="134" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4CAF50">
+        85.3%
+      </text>
+      
+      <!-- Row 3 -->
+      <rect x="20" y="145" width="540" height="30" fill="#ffffff"/>
+      <text x="40" y="164" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Anomaly Detection
+      </text>
+      <text x="210" y="164" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Autoencoder
+      </text>
+      <text x="350" y="164" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        AUC
+      </text>
+      <text x="470" y="164" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4CAF50">
+        0.92
+      </text>
+      
+      <!-- Row 4 -->
+      <rect x="20" y="175" width="540" height="30" fill="#C8E6C9"/>
+      <text x="40" y="194" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Image Classification
+      </text>
+      <text x="210" y="194" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        ResNet-8
+      </text>
+      <text x="350" y="194" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+        Accuracy
+      </text>
+      <text x="470" y="194" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4CAF50">
+        88.7%
+      </text>
+      
+      <!-- Bottom info -->
+      <rect x="20" y="215" width="540" height="1" fill="#4CAF50" opacity="0.3"/>
+      
+      <text x="20" y="235" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">
+        Platforms tested:
+      </text>
+      <text x="30" y="252" font-family="Arial, sans-serif" font-size="10" fill="#666666">
+        Arduino Nano 33 • STM32F746 • ESP32 • NXP i.MX RT
+      </text>
+    </g>
+  </g>
+  
+  <!-- Metrics Reported Section -->
+  <g transform="translate(710, 480)">
+    <rect x="0" y="0" width="570" height="260" fill="#FFF3E0" stroke="#FF9800" stroke-width="2" rx="8"/>
+    
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#F57C00">
+      Metrics Reported
+    </text>
+    
+    <!-- Metric 1: Latency -->
+    <g transform="translate(40, 60)">
+      <circle cx="0" cy="0" r="25" fill="#FF9800"/>
+      <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">ms</text>
+      <text x="40" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E65100">
+        Latency (ms)
+      </text>
+      <text x="40" y="18" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+        Inference time per sample
+      </text>
+    </g>
+    
+    <!-- Metric 2: Energy -->
+    <g transform="translate(40, 120)">
+      <circle cx="0" cy="0" r="25" fill="#FBC02D"/>
+      <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">mJ</text>
+      <text x="40" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#F57F17">
+        Energy (mJ)
+      </text>
+      <text x="40" y="18" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+        Energy consumption per inference
+      </text>
+    </g>
+    
+    <!-- Metric 3: Accuracy -->
+    <g transform="translate(40, 180)">
+      <circle cx="0" cy="0" r="25" fill="#4CAF50"/>
+      <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">%</text>
+      <text x="40" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E7D32">
+        Accuracy (%)
+      </text>
+      <text x="40" y="18" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+        Model accuracy on test set
+      </text>
+    </g>
+    
+    <!-- Metric 4: Memory -->
+    <g transform="translate(310, 60)">
+      <circle cx="0" cy="0" r="25" fill="#2196F3"/>
+      <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">KB</text>
+      <text x="40" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1976D2">
+        Memory (KB)
+      </text>
+      <text x="40" y="18" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+        RAM + Flash footprint
+      </text>
+    </g>
+    
+    <!-- Importance note -->
+    <g transform="translate(20, 220)">
+      <rect x="0" y="0" width="530" height="30" fill="#FFE0B2" rx="4"/>
+      <text x="15" y="20" font-family="Arial, sans-serif" font-size="11" font-style="italic" fill="#E65100">
+        ⚡ Standardized benchmarks enable fair comparison across platforms
+      </text>
+    </g>
+  </g>
+  
+  <!-- Watermark -->
+  <text x="1250" y="780" font-family="Arial, sans-serif" font-size="14" fill="#bbbbbb">@Alnemari</text>
+</svg>

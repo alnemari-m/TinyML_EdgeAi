@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg55"
+   sodipodi:docname="slide25_ethics_privacy.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="slide25_ethics_privacy.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs55" />
+  <sodipodi:namedview
+     id="namedview55"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg55" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="100"
+     y="80"
+     font-family="Arial, sans-serif"
+     font-size="52"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">
+    ETHICS AND PRIVACY
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="100"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="600"
+     fill="#E91E63"
+     id="text2">
+    LOCAL AI FOR DATA SOVEREIGNTY
+  </text>
+  <!-- Privacy Advantages Section -->
+  <g
+     transform="translate(57.401316,165.39474)"
+     id="g14">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="22px"
+       font-weight="bold"
+       fill="#e91e63"
+       id="text3">Privacy Advantages</text>
+    <!-- Data Stays Local -->
+    <g
+       transform="translate(0,30)"
+       id="g8">
+      <rect
+         x="0"
+         y="0"
+         width="560"
+         height="180"
+         fill="#fce4ec"
+         stroke="#e91e63"
+         stroke-width="2"
+         rx="8"
+         id="rect3" />
+      <!-- Shield Icon -->
+      <g
+         transform="translate(280,50)"
+         id="g4">
+        <path
+           d="M 0,-30 -25,0 V 20 Q -25,35 0,40 25,35 25,20 V 0 Z"
+           fill="#e91e63"
+           stroke="#c2185b"
+           stroke-width="2"
+           id="path3" />
+        <path
+           d="M -5,5 0,15 15,-5"
+           stroke="#ffffff"
+           stroke-width="3"
+           fill="none"
+           id="path4" />
+      </g>
+      <text
+         x="280"
+         y="105"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#c2185b"
+         id="text4">Data Stays Local</text>
+      <text
+         x="30"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text5">✓ No cloud transmission</text>
+      <text
+         x="30"
+         y="153"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text6">✓ No third-party access</text>
+      <text
+         x="300"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text7">✓ GDPR/HIPAA compliant</text>
+      <text
+         x="300"
+         y="153"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text8">✓ User control</text>
+    </g>
+    <!-- Security Benefits -->
+    <g
+       transform="translate(590,30)"
+       id="g13">
+      <rect
+         x="0"
+         y="0"
+         width="590"
+         height="180"
+         fill="#f3e5f5"
+         stroke="#9c27b0"
+         stroke-width="2"
+         rx="8"
+         id="rect8" />
+      <!-- Lock Icon -->
+      <g
+         transform="translate(295,50)"
+         id="g9">
+        <rect
+           x="-18"
+           y="5"
+           width="36"
+           height="25"
+           fill="#9c27b0"
+           rx="3"
+           id="rect9" />
+        <path
+           d="m -12,-10 q 0,-10 12,-10 12,0 12,10 V 5 h -24 z"
+           fill="none"
+           stroke="#9c27b0"
+           stroke-width="3"
+           id="path9" />
+        <circle
+           cx="0"
+           cy="17"
+           r="4"
+           fill="#ffffff"
+           id="circle9" />
+      </g>
+      <text
+         x="295"
+         y="105"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#7b1fa2"
+         id="text9">Security Benefits</text>
+      <text
+         x="30"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text10">✓ Reduced attack surface</text>
+      <text
+         x="30"
+         y="153"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text11">✓ No network vulnerabilities</text>
+      <text
+         x="320"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text12">✓ Tamper-evident hardware</text>
+      <text
+         x="320"
+         y="153"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#2c3e50"
+         id="text13">✓ Encrypted storage</text>
+    </g>
+  </g>
+  <!-- Trade-offs Section -->
+  <g
+     transform="translate(91.940789,405.75658)"
+     id="g31">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="22px"
+       font-weight="bold"
+       fill="#e91e63"
+       id="text14">Trade-offs</text>
+    <g
+       transform="translate(0,20)"
+       id="g30">
+      <rect
+         x="0"
+         y="0"
+         width="1180"
+         height="150"
+         fill="#e3f2fd"
+         stroke="#2196f3"
+         stroke-width="2"
+         rx="8"
+         id="rect14" />
+      <!-- Table Header -->
+      <rect
+         x="20"
+         y="20"
+         width="1140"
+         height="35"
+         fill="#1976d2"
+         rx="4"
+         id="rect15" />
+      <text
+         x="120"
+         y="42"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text15">Aspect</text>
+      <text
+         x="380"
+         y="42"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text16">Cloud AI</text>
+      <text
+         x="640"
+         y="42"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text17">Edge AI</text>
+      <text
+         x="920"
+         y="42"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         font-weight="bold"
+         fill="#ffffff"
+         id="text18">TinyML</text>
+      <!-- Privacy Row -->
+      <rect
+         x="20"
+         y="55"
+         width="1140"
+         height="30"
+         fill="#ffffff"
+         id="rect18" />
+      <text
+         x="40"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#2c3e50"
+         id="text19">Privacy</text>
+      <text
+         x="380"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#f44336"
+         id="text20">Low</text>
+      <text
+         x="640"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#ff9800"
+         id="text21">Medium</text>
+      <text
+         x="920"
+         y="75"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#4caf50"
+         id="text22">High</text>
+      <!-- Updateability Row -->
+      <rect
+         x="20"
+         y="85"
+         width="1140"
+         height="30"
+         fill="#bbdefb"
+         id="rect22" />
+      <text
+         x="40"
+         y="105"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#2c3e50"
+         id="text23">Updateability</text>
+      <text
+         x="380"
+         y="105"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#4caf50"
+         id="text24">Easy</text>
+      <text
+         x="640"
+         y="105"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#ff9800"
+         id="text25">Moderate</text>
+      <text
+         x="920"
+         y="105"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#f44336"
+         id="text26">Hard</text>
+      <!-- Debugging Row -->
+      <rect
+         x="20"
+         y="115"
+         width="1140"
+         height="30"
+         fill="#ffffff"
+         id="rect26" />
+      <text
+         x="40"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         font-weight="bold"
+         fill="#2c3e50"
+         id="text27">Debugging</text>
+      <text
+         x="380"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#4caf50"
+         id="text28">Easy</text>
+      <text
+         x="640"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#ff9800"
+         id="text29">Moderate</text>
+      <text
+         x="920"
+         y="135"
+         font-family="Arial, sans-serif"
+         font-size="12px"
+         fill="#f44336"
+         id="text30">Difficult</text>
+    </g>
+  </g>
+  <!-- Ethical Considerations Section -->
+  <g
+     transform="translate(97.697368,608.78289)"
+     id="g48">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="22px"
+       font-weight="bold"
+       fill="#e91e63"
+       id="text31">Ethical Considerations</text>
+    <g
+       transform="translate(0,20)"
+       id="g47">
+      <!-- Transparency -->
+      <g
+         id="g36">
+        <rect
+           x="0"
+           y="0"
+           width="380"
+           height="140"
+           fill="#e8f5e9"
+           stroke="#4caf50"
+           stroke-width="2"
+           rx="8"
+           id="rect31" />
+        <text
+           x="20"
+           y="30"
+           font-family="Arial, sans-serif"
+           font-size="16px"
+           font-weight="bold"
+           fill="#2e7d32"
+           id="text32">1. Transparency</text>
+        <text
+           x="30"
+           y="55"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text33">• How is data processed?</text>
+        <text
+           x="30"
+           y="75"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text34">• What decisions are automated?</text>
+        <text
+           x="30"
+           y="95"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text35">• Can users understand/audit?</text>
+        <text
+           x="30"
+           y="115"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text36">• Explainability requirements</text>
+      </g>
+      <!-- Fairness -->
+      <g
+         transform="translate(400)"
+         id="g41">
+        <rect
+           x="0"
+           y="0"
+           width="380"
+           height="140"
+           fill="#fff3e0"
+           stroke="#ff9800"
+           stroke-width="2"
+           rx="8"
+           id="rect36" />
+        <text
+           x="20"
+           y="30"
+           font-family="Arial, sans-serif"
+           font-size="16px"
+           font-weight="bold"
+           fill="#f57c00"
+           id="text37">2. Fairness</text>
+        <text
+           x="30"
+           y="55"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text38">• Bias in training data</text>
+        <text
+           x="30"
+           y="75"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text39">• Generalization across groups</text>
+        <text
+           x="30"
+           y="95"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text40">• Equitable access to technology</text>
+        <text
+           x="30"
+           y="115"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text41">• Inclusive design principles</text>
+      </g>
+      <!-- Safety -->
+      <g
+         transform="translate(800)"
+         id="g46">
+        <rect
+           x="0"
+           y="0"
+           width="380"
+           height="140"
+           fill="#fce4ec"
+           stroke="#e91e63"
+           stroke-width="2"
+           rx="8"
+           id="rect41" />
+        <text
+           x="20"
+           y="30"
+           font-family="Arial, sans-serif"
+           font-size="16px"
+           font-weight="bold"
+           fill="#c2185b"
+           id="text42">3. Safety</text>
+        <text
+           x="30"
+           y="55"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text43">• Reliability of edge models</text>
+        <text
+           x="30"
+           y="75"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text44">• Failure modes and recovery</text>
+        <text
+           x="30"
+           y="95"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text45">• Human override mechanisms</text>
+        <text
+           x="30"
+           y="115"
+           font-family="Arial, sans-serif"
+           font-size="12px"
+           fill="#2c3e50"
+           id="text46">• Critical system safeguards</text>
+      </g>
+    </g>
+  </g>
+  <!-- Best Practices -->
+  <g
+     transform="translate(1002.4671,32.236842)"
+     id="g54">
+    <rect
+       x="0"
+       y="0"
+       width="380"
+       height="200"
+       fill="#e0f7fa"
+       stroke="#00bcd4"
+       stroke-width="2"
+       rx="8"
+       id="rect48" />
+    <text
+       x="190"
+       y="30"
+       font-family="Arial, sans-serif"
+       font-size="16px"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0097a7"
+       id="text48">Best Practices</text>
+    <text
+       x="20"
+       y="60"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text49">✓ Open-source models when possible</text>
+    <text
+       x="20"
+       y="82"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text50">✓ Document data sources</text>
+    <text
+       x="20"
+       y="104"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text51">✓ Test across diverse conditions</text>
+    <text
+       x="20"
+       y="126"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text52">✓ Provide user control</text>
+    <text
+       x="20"
+       y="148"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text53">✓ Regular audits and validation</text>
+    <text
+       x="20"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       fill="#2c3e50"
+       id="text54">✓ Clear consent mechanisms</text>
+  </g>
+  <!-- Watermark -->
+  <text
+     x="1250"
+     y="780"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#bbbbbb"
+     id="text55">@Alnemari</text>
+</svg>

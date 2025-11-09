@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg50"
+   sodipodi:docname="slide9_comparison.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="slide9_comparison.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs50" />
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg50" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="100"
+     y="80"
+     font-family="Arial, sans-serif"
+     font-size="52"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">
+    TINYML VS EDGE AI VS CLOUD AI
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="100"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="600"
+     fill="#E74C3C"
+     id="text2">
+    Comparative Analysis
+  </text>
+  <!-- Comparison Table -->
+  <g
+     transform="translate(100, 180)"
+     id="g49">
+    <rect
+       x="0"
+       y="0"
+       width="1200"
+       height="550"
+       fill="#F5F5F5"
+       stroke="#E74C3C"
+       stroke-width="3"
+       rx="8"
+       id="rect2" />
+    <!-- Header Row -->
+    <rect
+       x="15"
+       y="15"
+       width="280"
+       height="50"
+       fill="#E74C3C"
+       rx="5"
+       id="rect3" />
+    <text
+       x="155"
+       y="47"
+       font-family="Arial, sans-serif"
+       font-size="20"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text3">
+      Feature
+    </text>
+    <rect
+       x="305"
+       y="15"
+       width="280"
+       height="50"
+       fill="#3498DB"
+       rx="5"
+       id="rect4" />
+    <text
+       x="445"
+       y="47"
+       font-family="Arial, sans-serif"
+       font-size="20"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text4">
+      Cloud AI
+    </text>
+    <rect
+       x="595"
+       y="15"
+       width="280"
+       height="50"
+       fill="#2ECC71"
+       rx="5"
+       id="rect5" />
+    <text
+       x="735"
+       y="47"
+       font-family="Arial, sans-serif"
+       font-size="20"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text5">
+      Edge AI
+    </text>
+    <rect
+       x="885"
+       y="15"
+       width="280"
+       height="50"
+       fill="#9C27B0"
+       rx="5"
+       id="rect6" />
+    <text
+       x="1025"
+       y="47"
+       font-family="Arial, sans-serif"
+       font-size="20"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text6">
+      TinyML
+    </text>
+    <!-- Row 1: Hardware -->
+    <rect
+       x="15"
+       y="75"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect7" />
+    <text
+       x="25"
+       y="102"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text7">
+      Hardware
+    </text>
+    <rect
+       x="305"
+       y="75"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect8" />
+    <text
+       x="445"
+       y="102"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text8">
+      GPU/TPU Servers
+    </text>
+    <rect
+       x="595"
+       y="75"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect9" />
+    <text
+       x="735"
+       y="102"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text9">
+      Edge TPU, Mobile GPU
+    </text>
+    <rect
+       x="885"
+       y="75"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect10" />
+    <text
+       x="1025"
+       y="102"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text10">
+      Microcontrollers
+    </text>
+    <!-- Row 2: Memory -->
+    <rect
+       x="15"
+       y="120"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect11" />
+    <text
+       x="25"
+       y="147"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text11">
+      Memory
+    </text>
+    <rect
+       x="305"
+       y="120"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect12" />
+    <text
+       x="445"
+       y="147"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text12">
+      GBs to TBs
+    </text>
+    <rect
+       x="595"
+       y="120"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect13" />
+    <text
+       x="735"
+       y="147"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text13">
+      GBs
+    </text>
+    <rect
+       x="885"
+       y="120"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect14" />
+    <text
+       x="1025"
+       y="147"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text14">
+      KBs to MBs
+    </text>
+    <!-- Row 3: Power -->
+    <rect
+       x="15"
+       y="165"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect15" />
+    <text
+       x="25"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text15">
+      Power
+    </text>
+    <rect
+       x="305"
+       y="165"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect16" />
+    <text
+       x="445"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text16">
+      kW
+    </text>
+    <rect
+       x="595"
+       y="165"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect17" />
+    <text
+       x="735"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text17">
+      Watts
+    </text>
+    <rect
+       x="885"
+       y="165"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect18" />
+    <text
+       x="1025"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text18">
+      mW to μW
+    </text>
+    <!-- Row 4: Latency -->
+    <rect
+       x="15"
+       y="210"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect19" />
+    <text
+       x="25"
+       y="237"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text19">
+      Latency
+    </text>
+    <rect
+       x="305"
+       y="210"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect20" />
+    <text
+       x="445"
+       y="237"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text20">
+      100-500ms
+    </text>
+    <rect
+       x="595"
+       y="210"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect21" />
+    <text
+       x="735"
+       y="237"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text21">
+      10-50ms
+    </text>
+    <rect
+       x="885"
+       y="210"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect22" />
+    <text
+       x="1025"
+       y="237"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text22">
+      &lt;10ms
+    </text>
+    <!-- Row 5: Connectivity -->
+    <rect
+       x="15"
+       y="255"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect23" />
+    <text
+       x="25"
+       y="282"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text23">
+      Connectivity
+    </text>
+    <rect
+       x="305"
+       y="255"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect24" />
+    <text
+       x="445"
+       y="282"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text24">
+      Required
+    </text>
+    <rect
+       x="595"
+       y="255"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect25" />
+    <text
+       x="735"
+       y="282"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text25">
+      Optional
+    </text>
+    <rect
+       x="885"
+       y="255"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect26" />
+    <text
+       x="1025"
+       y="282"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text26">
+      None
+    </text>
+    <!-- Row 6: Privacy -->
+    <rect
+       x="15"
+       y="300"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect27" />
+    <text
+       x="25"
+       y="327"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text27">
+      Privacy
+    </text>
+    <rect
+       x="305"
+       y="300"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect28" />
+    <text
+       x="445"
+       y="327"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text28">
+      Low (data sent)
+    </text>
+    <rect
+       x="595"
+       y="300"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect29" />
+    <text
+       x="735"
+       y="327"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text29">
+      Medium
+    </text>
+    <rect
+       x="885"
+       y="300"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect30" />
+    <text
+       x="1025"
+       y="327"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text30">
+      High (local)
+    </text>
+    <!-- Row 7: Model Size -->
+    <rect
+       x="15"
+       y="345"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect31" />
+    <text
+       x="25"
+       y="372"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text31">
+      Model Size
+    </text>
+    <rect
+       x="305"
+       y="345"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect32" />
+    <text
+       x="445"
+       y="372"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text32">
+      Billions of params
+    </text>
+    <rect
+       x="595"
+       y="345"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect33" />
+    <text
+       x="735"
+       y="372"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text33">
+      Millions of params
+    </text>
+    <rect
+       x="885"
+       y="345"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect34" />
+    <text
+       x="1025"
+       y="372"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text34">
+      Thousands of params
+    </text>
+    <!-- Row 8: Cost per device -->
+    <rect
+       x="15"
+       y="390"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect35" />
+    <text
+       x="25"
+       y="417"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text35">
+      Cost per device
+    </text>
+    <rect
+       x="305"
+       y="390"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect36" />
+    <text
+       x="445"
+       y="417"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text36">
+      Subscription
+    </text>
+    <rect
+       x="595"
+       y="390"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect37" />
+    <text
+       x="735"
+       y="417"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text37">
+      $50-$200
+    </text>
+    <rect
+       x="885"
+       y="390"
+       width="280"
+       height="45"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect38" />
+    <text
+       x="1025"
+       y="417"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text38">
+      $2-$10
+    </text>
+    <!-- Row 9: Update Ability -->
+    <rect
+       x="15"
+       y="435"
+       width="280"
+       height="45"
+       fill="#FFE8E8"
+       id="rect39" />
+    <text
+       x="25"
+       y="462"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text39">
+      Update Ability
+    </text>
+    <rect
+       x="305"
+       y="435"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect40" />
+    <text
+       x="445"
+       y="462"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text40">
+      Easy
+    </text>
+    <rect
+       x="595"
+       y="435"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect41" />
+    <text
+       x="735"
+       y="462"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text41">
+      Moderate
+    </text>
+    <rect
+       x="885"
+       y="435"
+       width="280"
+       height="45"
+       fill="#ffffff"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect42" />
+    <text
+       x="1025"
+       y="462"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text42">
+      Challenging
+    </text>
+    <!-- Row 10: Applications -->
+    <rect
+       x="15"
+       y="480"
+       width="280"
+       height="55"
+       fill="#FFE8E8"
+       id="rect43" />
+    <text
+       x="25"
+       y="512"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       fill="#2C3E50"
+       id="text43">
+      Applications
+    </text>
+    <rect
+       x="305"
+       y="480"
+       width="280"
+       height="55"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect44" />
+    <text
+       x="445"
+       y="505"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text44">
+      Complex NLP,
+    </text>
+    <text
+       x="445"
+       y="522"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text45">
+      Vision
+    </text>
+    <rect
+       x="595"
+       y="480"
+       width="280"
+       height="55"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect45" />
+    <text
+       x="735"
+       y="505"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text46">
+      Autonomous
+    </text>
+    <text
+       x="735"
+       y="522"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text47">
+      vehicles
+    </text>
+    <rect
+       x="885"
+       y="480"
+       width="280"
+       height="55"
+       fill="#F9F9F9"
+       stroke="#DDDDDD"
+       stroke-width="1"
+       id="rect47" />
+    <text
+       x="1025"
+       y="505"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text48">
+      Sensors,
+    </text>
+    <text
+       x="1025"
+       y="522"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text49">
+      wearables
+    </text>
+  </g>
+  <!-- Watermark -->
+  <text
+     x="1250"
+     y="780"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#bbbbbb"
+     id="text50">@Alnemari</text>
+</svg>

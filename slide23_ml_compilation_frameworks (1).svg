@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg59"
+   sodipodi:docname="slide23_ml_compilation_frameworks (1).svg"
+   inkscape:export-filename="slide23_ml_compilation_frameworks (1).png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs59" />
+  <sodipodi:namedview
+     id="namedview59"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg59" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Title -->
+  <text
+     x="100"
+     y="80"
+     font-family="Arial, sans-serif"
+     font-size="52"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">
+    ML COMPILATION FRAMEWORKS
+  </text>
+  <!-- Subtitle -->
+  <text
+     x="100"
+     y="130"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="600"
+     fill="#E91E63"
+     id="text2">
+    OPTIMIZATION AND CODE GENERATION
+  </text>
+  <!-- MLIR -->
+  <g
+     transform="translate(100, 170)"
+     id="g12">
+    <rect
+       x="0"
+       y="0"
+       width="400"
+       height="280"
+       fill="#FCE4EC"
+       stroke="#E91E63"
+       stroke-width="2"
+       rx="8"
+       id="rect2" />
+    <!-- Logo/Icon -->
+    <g
+       transform="translate(200, 50)"
+       id="g4">
+      <rect
+         x="-40"
+         y="-30"
+         width="80"
+         height="60"
+         fill="#E91E63"
+         rx="4"
+         id="rect3" />
+      <text
+         x="0"
+         y="-5"
+         font-family="Arial, sans-serif"
+         font-size="16"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text3">MLIR</text>
+      <text
+         x="0"
+         y="12"
+         font-family="Arial, sans-serif"
+         font-size="9"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text4">Multi-Level IR</text>
+    </g>
+    <text
+       x="200"
+       y="110"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#C2185B"
+       id="text5">
+      MLIR
+    </text>
+    <text
+       x="200"
+       y="128"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       text-anchor="middle"
+       fill="#666666"
+       id="text6">
+      Multi-Level Intermediate Representation
+    </text>
+    <text
+       x="20"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       font-weight="bold"
+       fill="#AD1457"
+       id="text7">
+      Features:
+    </text>
+    <text
+       x="30"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text8">
+      • Reusable compiler infrastructure
+    </text>
+    <text
+       x="30"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text9">
+      • Multiple abstraction levels
+    </text>
+    <text
+       x="30"
+       y="209"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text10">
+      • Dialect system for extensibility
+    </text>
+    <text
+       x="30"
+       y="226"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text11">
+      • Progressive lowering
+    </text>
+    <rect
+       x="20"
+       y="240"
+       width="360"
+       height="30"
+       fill="#F8BBD0"
+       rx="4"
+       id="rect11" />
+    <text
+       x="200"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#880E4F"
+       id="text12">
+      Used by: TensorFlow, PyTorch, IREE
+    </text>
+  </g>
+  <!-- TVM -->
+  <g
+     transform="translate(530, 170)"
+     id="g21">
+    <rect
+       x="0"
+       y="0"
+       width="400"
+       height="280"
+       fill="#F3E5F5"
+       stroke="#9C27B0"
+       stroke-width="2"
+       rx="8"
+       id="rect12" />
+    <!-- Logo/Icon -->
+    <g
+       transform="translate(200, 50)"
+       id="g13">
+      <circle
+         cx="0"
+         cy="0"
+         r="35"
+         fill="#9C27B0"
+         id="circle12" />
+      <text
+         x="0"
+         y="8"
+         font-family="Arial, sans-serif"
+         font-size="20"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text13">TVM</text>
+    </g>
+    <text
+       x="200"
+       y="110"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#7B1FA2"
+       id="text14">
+      Apache TVM
+    </text>
+    <text
+       x="200"
+       y="128"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       text-anchor="middle"
+       fill="#666666"
+       id="text15">
+      Tensor Virtual Machine
+    </text>
+    <text
+       x="20"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       font-weight="bold"
+       fill="#6A1B9A"
+       id="text16">
+      Features:
+    </text>
+    <text
+       x="30"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text17">
+      • End-to-end compiler stack
+    </text>
+    <text
+       x="30"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text18">
+      • Auto-tuning for hardware
+    </text>
+    <text
+       x="30"
+       y="209"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text19">
+      • Cross-platform deployment
+    </text>
+    <text
+       x="30"
+       y="226"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text20">
+      • Supports ARM, x86, GPUs
+    </text>
+    <rect
+       x="20"
+       y="240"
+       width="360"
+       height="30"
+       fill="#E1BEE7"
+       rx="4"
+       id="rect20" />
+    <text
+       x="200"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#4A148C"
+       id="text21">
+      Best for: Edge devices, mobile, IoT
+    </text>
+  </g>
+  <!-- XLA -->
+  <g
+     transform="translate(960, 170)"
+     id="g30">
+    <rect
+       x="0"
+       y="0"
+       width="320"
+       height="280"
+       fill="#E3F2FD"
+       stroke="#2196F3"
+       stroke-width="2"
+       rx="8"
+       id="rect21" />
+    <!-- Logo/Icon -->
+    <g
+       transform="translate(160, 50)"
+       id="g22">
+      <rect
+         x="-35"
+         y="-25"
+         width="70"
+         height="50"
+         fill="#2196F3"
+         rx="4"
+         id="rect22" />
+      <text
+         x="0"
+         y="5"
+         font-family="Arial, sans-serif"
+         font-size="18"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text22">XLA</text>
+    </g>
+    <text
+       x="160"
+       y="110"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#1976D2"
+       id="text23">
+      XLA
+    </text>
+    <text
+       x="160"
+       y="128"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       text-anchor="middle"
+       fill="#666666"
+       id="text24">
+      Accelerated Linear Algebra
+    </text>
+    <text
+       x="20"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       font-weight="bold"
+       fill="#0D47A1"
+       id="text25">
+      Features:
+    </text>
+    <text
+       x="30"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text26">
+      • JIT compilation
+    </text>
+    <text
+       x="30"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text27">
+      • Fusion optimization
+    </text>
+    <text
+       x="30"
+       y="209"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text28">
+      • Memory optimization
+    </text>
+    <text
+       x="30"
+       y="226"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text29">
+      • TensorFlow backend
+    </text>
+    <rect
+       x="20"
+       y="240"
+       width="280"
+       height="30"
+       fill="#BBDEFB"
+       rx="4"
+       id="rect29" />
+    <text
+       x="160"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0D47A1"
+       id="text30">
+      Focus: Performance
+    </text>
+  </g>
+  <!-- IREE -->
+  <g
+     transform="translate(100, 470)"
+     id="g40">
+    <rect
+       x="0"
+       y="0"
+       width="370"
+       height="280"
+       fill="#E8F5E9"
+       stroke="#4CAF50"
+       stroke-width="2"
+       rx="8"
+       id="rect30" />
+    <!-- Logo/Icon -->
+    <g
+       transform="translate(185, 50)"
+       id="g32">
+      <rect
+         x="-38"
+         y="-28"
+         width="76"
+         height="56"
+         fill="#4CAF50"
+         rx="4"
+         id="rect31" />
+      <text
+         x="0"
+         y="-3"
+         font-family="Arial, sans-serif"
+         font-size="15"
+         font-weight="bold"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text31">IREE</text>
+      <text
+         x="0"
+         y="13"
+         font-family="Arial, sans-serif"
+         font-size="8"
+         text-anchor="middle"
+         fill="#ffffff"
+         id="text32">ML Runtime</text>
+    </g>
+    <text
+       x="185"
+       y="110"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#388E3C"
+       id="text33">
+      IREE
+    </text>
+    <text
+       x="185"
+       y="128"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       text-anchor="middle"
+       fill="#666666"
+       id="text34">
+      Intermediate Repr. Execution Engine
+    </text>
+    <text
+       x="20"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       font-weight="bold"
+       fill="#2E7D32"
+       id="text35">
+      Features:
+    </text>
+    <text
+       x="30"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text36">
+      • Built on MLIR
+    </text>
+    <text
+       x="30"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text37">
+      • Ahead-of-time compilation
+    </text>
+    <text
+       x="30"
+       y="209"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text38">
+      • Multi-backend support
+    </text>
+    <text
+       x="30"
+       y="226"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text39">
+      • Efficient deployment
+    </text>
+    <rect
+       x="20"
+       y="240"
+       width="330"
+       height="30"
+       fill="#C8E6C9"
+       rx="4"
+       id="rect39" />
+    <text
+       x="185"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#1B5E20"
+       id="text40">
+      Target: Mobile, embedded, servers
+    </text>
+  </g>
+  <!-- Glow -->
+  <g
+     transform="translate(500, 470)"
+     id="g49">
+    <rect
+       x="0"
+       y="0"
+       width="370"
+       height="280"
+       fill="#FFF3E0"
+       stroke="#FF9800"
+       stroke-width="2"
+       rx="8"
+       id="rect40" />
+    <!-- Logo/Icon -->
+    <g
+       transform="translate(185, 50)"
+       id="g42">
+      <circle
+         cx="0"
+         cy="0"
+         r="35"
+         fill="#FF9800"
+         id="circle40" />
+      <circle
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#FFB74D"
+         id="circle41" />
+      <circle
+         cx="0"
+         cy="0"
+         r="15"
+         fill="#FFE0B2"
+         id="circle42" />
+    </g>
+    <text
+       x="185"
+       y="110"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#F57C00"
+       id="text42">
+      Glow
+    </text>
+    <text
+       x="185"
+       y="128"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       text-anchor="middle"
+       fill="#666666"
+       id="text43">
+      Graph Lowering Compiler
+    </text>
+    <text
+       x="20"
+       y="155"
+       font-family="Arial, sans-serif"
+       font-size="13"
+       font-weight="bold"
+       fill="#E65100"
+       id="text44">
+      Features:
+    </text>
+    <text
+       x="30"
+       y="175"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text45">
+      • Neural network compiler
+    </text>
+    <text
+       x="30"
+       y="192"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text46">
+      • Hardware-agnostic
+    </text>
+    <text
+       x="30"
+       y="209"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text47">
+      • Graph optimization
+    </text>
+    <text
+       x="30"
+       y="226"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       fill="#2C3E50"
+       id="text48">
+      • PyTorch integration
+    </text>
+    <rect
+       x="20"
+       y="240"
+       width="330"
+       height="30"
+       fill="#FFE0B2"
+       rx="4"
+       id="rect48" />
+    <text
+       x="185"
+       y="260"
+       font-family="Arial, sans-serif"
+       font-size="11"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#E65100"
+       id="text49">
+      Focus: PyTorch models
+    </text>
+  </g>
+  <!-- Compilation Stack Diagram -->
+  <g
+     transform="translate(900, 470)"
+     id="g58">
+    <rect
+       x="0"
+       y="0"
+       width="380"
+       height="280"
+       fill="#E0F7FA"
+       stroke="#00BCD4"
+       stroke-width="2"
+       rx="8"
+       id="rect49" />
+    <text
+       x="190"
+       y="30"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#0097A7"
+       id="text50">
+      Compilation Stack
+    </text>
+    <!-- Stack layers -->
+    <rect
+       x="40"
+       y="50"
+       width="300"
+       height="40"
+       fill="#B2EBF2"
+       stroke="#00ACC1"
+       stroke-width="2"
+       rx="4"
+       id="rect50" />
+    <text
+       x="190"
+       y="75"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#006064"
+       id="text51">
+      High-Level Frameworks
+    </text>
+    <text
+       x="190"
+       y="88"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text52">
+      TensorFlow, PyTorch, JAX
+    </text>
+    <path
+       d="M 190,95 L 190,105"
+       stroke="#00BCD4"
+       stroke-width="2"
+       id="path52" />
+    <path
+       d="M 185,100 L 190,105 L 195,100"
+       fill="#00BCD4"
+       id="path53" />
+    <rect
+       x="40"
+       y="110"
+       width="300"
+       height="40"
+       fill="#80DEEA"
+       stroke="#00ACC1"
+       stroke-width="2"
+       rx="4"
+       id="rect53" />
+    <text
+       x="190"
+       y="135"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#006064"
+       id="text53">
+      IR / Compiler Layer
+    </text>
+    <text
+       x="190"
+       y="148"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text54">
+      MLIR, XLA, TVM
+    </text>
+    <path
+       d="M 190,155 L 190,165"
+       stroke="#00BCD4"
+       stroke-width="2"
+       id="path54" />
+    <path
+       d="M 185,160 L 190,165 L 195,160"
+       fill="#00BCD4"
+       id="path55" />
+    <rect
+       x="40"
+       y="170"
+       width="300"
+       height="40"
+       fill="#4DD0E1"
+       stroke="#00ACC1"
+       stroke-width="2"
+       rx="4"
+       id="rect55" />
+    <text
+       x="190"
+       y="195"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#006064"
+       id="text55">
+      Hardware Abstraction
+    </text>
+    <text
+       x="190"
+       y="208"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       text-anchor="middle"
+       fill="#2C3E50"
+       id="text56">
+      LLVM, Codegen
+    </text>
+    <path
+       d="M 190,215 L 190,225"
+       stroke="#00BCD4"
+       stroke-width="2"
+       id="path56" />
+    <path
+       d="M 185,220 L 190,225 L 195,220"
+       fill="#00BCD4"
+       id="path57" />
+    <rect
+       x="40"
+       y="230"
+       width="300"
+       height="40"
+       fill="#26C6DA"
+       stroke="#00ACC1"
+       stroke-width="2"
+       rx="4"
+       id="rect57" />
+    <text
+       x="190"
+       y="255"
+       font-family="Arial, sans-serif"
+       font-size="12"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text57">
+      Target Hardware
+    </text>
+    <text
+       x="190"
+       y="268"
+       font-family="Arial, sans-serif"
+       font-size="9"
+       text-anchor="middle"
+       fill="#E0F7FA"
+       id="text58">
+      CPU, GPU, DSP, NPU, MCU
+    </text>
+  </g>
+  <!-- Watermark -->
+  <text
+     x="1250"
+     y="780"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#bbbbbb"
+     id="text59">@Alnemari</text>
+</svg>

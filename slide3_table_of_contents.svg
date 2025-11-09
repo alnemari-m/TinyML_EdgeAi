@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="slide3_table_of_contents.svg"
+   inkscape:export-filename="slide3_table_of_contents.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86857143"
+     inkscape:cx="700"
+     inkscape:cy="399.50658"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <!-- Background -->
+  <rect
+     width="1400"
+     height="800"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- Top right corner logo/watermark -->
+  <!-- Title -->
+  <text
+     x="100"
+     y="100"
+     font-family="Arial, sans-serif"
+     font-size="56"
+     font-weight="bold"
+     fill="#1a1a1a"
+     id="text1">
+    TABLE OF CONTENT
+  </text>
+  <!-- Watermark at bottom -->
+  <!-- Left Column -->
+  <g
+     transform="translate(150, 200)"
+     id="g10">
+    <!-- Item 2 -->
+    <rect
+       x="0"
+       y="0"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect2" />
+    <circle
+       cx="40"
+       cy="40"
+       r="25"
+       fill="#4A90E2"
+       id="circle2" />
+    <text
+       x="40"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text3">2</text>
+    <text
+       x="90"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text4">
+      MOTIVATION &amp; CONTEXT
+    </text>
+    <!-- Item 3 -->
+    <rect
+       x="0"
+       y="120"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect4" />
+    <circle
+       cx="40"
+       cy="160"
+       r="25"
+       fill="#4A90E2"
+       id="circle4" />
+    <text
+       x="40"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text5">3</text>
+    <text
+       x="90"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text6">
+      CORE CONCEPTS
+    </text>
+    <!-- Item 4 -->
+    <rect
+       x="0"
+       y="240"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect6" />
+    <circle
+       cx="40"
+       cy="280"
+       r="25"
+       fill="#4A90E2"
+       id="circle6" />
+    <text
+       x="40"
+       y="290"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text7">4</text>
+    <text
+       x="90"
+       y="290"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text8">
+      TECHNICAL FOUNDATIONS
+    </text>
+    <!-- Item 5 -->
+    <rect
+       x="0"
+       y="360"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect8" />
+    <circle
+       cx="40"
+       cy="400"
+       r="25"
+       fill="#4A90E2"
+       id="circle8" />
+    <text
+       x="40"
+       y="410"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text9">5</text>
+    <text
+       x="90"
+       y="410"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text10">
+      HANDS-ON UNDERSTANDING
+    </text>
+  </g>
+  <!-- Right Column -->
+  <g
+     transform="translate(750, 200)"
+     id="g18">
+    <!-- Item 6 -->
+    <rect
+       x="0"
+       y="0"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect10" />
+    <circle
+       cx="40"
+       cy="40"
+       r="25"
+       fill="#4A90E2"
+       id="circle10" />
+    <text
+       x="40"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text11">6</text>
+    <text
+       x="90"
+       y="50"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text12">
+      TOOLS AND ECOSYSTEM
+    </text>
+    <!-- Item 7 -->
+    <rect
+       x="0"
+       y="120"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect12" />
+    <circle
+       cx="40"
+       cy="160"
+       r="25"
+       fill="#4A90E2"
+       id="circle12" />
+    <text
+       x="40"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text13">7</text>
+    <text
+       x="90"
+       y="170"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text14">
+      BROADER IMPLICATIONS
+    </text>
+    <!-- Item 8 -->
+    <rect
+       x="0"
+       y="240"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect14" />
+    <circle
+       cx="40"
+       cy="280"
+       r="25"
+       fill="#4A90E2"
+       id="circle14" />
+    <text
+       x="40"
+       y="290"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text15">8</text>
+    <text
+       x="90"
+       y="290"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text16">
+      LIVE DEMONSTRATION
+    </text>
+    <!-- Item 9 -->
+    <rect
+       x="0"
+       y="360"
+       width="500"
+       height="80"
+       fill="#E8F4F8"
+       stroke="#4A90E2"
+       stroke-width="2"
+       rx="40"
+       id="rect16" />
+    <circle
+       cx="40"
+       cy="400"
+       r="25"
+       fill="#4A90E2"
+       id="circle16" />
+    <text
+       x="40"
+       y="410"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text17">9</text>
+    <text
+       x="90"
+       y="410"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="600"
+       fill="#2C3E50"
+       id="text18">
+      CONCLUSION
+    </text>
+  </g>
+</svg>
